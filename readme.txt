@@ -11,12 +11,11 @@ Metricool is the first tool designed to measure #Blog impact and #SocialMedia ac
 == Description ==
 This plugin allows you to connect your blog or web based on Wordpress with Metricool. Metricool is a tool that provides metrics and analytics about your blog and your social profiles. Using Metricool you can schedule your tweets or your posts in Facebook.
 
-This plugin install a Javascript tracking code in the footer of your public pages. This code register the pages viewed by your visitors in Metricool. If you want to interrupt the conexion between your blog and Metricool, you can disable the plugin or remove the Metricool identifier configured in the plugin settings window.
+This plugin installs a Javascript tracking code in the footer of your public pages. This code registers the pages viewed by your visitors in Metricool. If you want to interrupt the conexion between your blog and Metricool, you can disable the plugin or remove the Metricool identifier configured in the plugin settings window.
 
 To use this plugin it is required to be a registered user of Metricool (http://metricool.com/).
 
-You can follow us:
-[Twitter](http://twitter.com/metricool \"Twitter\")
+You can follow us on Twitter: http://twitter.com/metricool/
 
 == Installation ==
 1. Upload `metricool` directory to the `/wp-content/plugins/` directory
