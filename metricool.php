@@ -126,7 +126,7 @@ class metricool {
 		}
 		
 		// Output
-		echo stripslashes("<scrip>function loadScript(a){var b=document.getElementsByTagName(\"head\")[0],c=document.createElement(\"script\");c.type=\"text/javascript\",c.src=\"http://tracker.metricool.com/app/resources/be.js\",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:" . $meta . "})})</script>");
+		echo stripslashes("<script>function loadScript(a){var b=document.getElementsByTagName(\"head\")[0],c=document.createElement(\"script\");c.type=\"text/javascript\",c.src=\"http://tracker.metricool.com/app/resources/be.js\",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:'" . $meta . "'})})</script>");
 	}
 }
 		
